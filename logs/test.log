@@ -1,0 +1,4 @@
+2018-03-20 at 09:49:02 CST [INFO] com.dream.framework.DriverUtils.info 20 -- com.dream.framework.DriverUtils: 打开网址：http://127.0.0.1:81/zentao
+ 2018-03-20 at 09:49:24 CST [INFO] com.dream.framework.DriverUtils.info 20 -- com.dream.framework.DriverUtils: 打开网址：http://127.0.0.1:81/zentao
+ 2018-03-20 at 09:49:33 CST [INFO] com.dream.framework.DriverUtils.info 20 -- com.dream.framework.DriverUtils: 获取元素： 用户菜单 文本值
+ 

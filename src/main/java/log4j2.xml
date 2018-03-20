@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="fatal">
+    <Appenders>
+        <Console name="Console01" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd 'at' HH:mm:ss z} [%level] %c{36}.%M %L -- %m%n "/>  
+        </Console>
+      	<File name="filea" fileName="logs/test.log">
+      	    <PatternLayout pattern="%d{yyyy-MM-dd 'at' HH:mm:ss z} [%level] %c{36}.%M %L -- %m%n "/>  
+      	</File>
+      
+    </Appenders>
+    <Loggers>
+        <root level="trace">
+            <appender-ref ref="Console01" />
+            <appender-ref ref="filea" />
+        </root>
+    </Loggers>
+</Configuration>

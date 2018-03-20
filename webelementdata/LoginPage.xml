@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="登录页面"><!-- 登录页面  -->
+    <locator name="用户输入框" type="css" value="input#account" timeout="5">usernameInputBox</locator>
+    <locator name="密码输入框" type="css" value="input[name='password']" timeout="5">passwordInputBox</locator>    
+    <locator name="登录按钮" type="css" value="button#submit" timeout="5">loginBotton</locator>        
+</page>
